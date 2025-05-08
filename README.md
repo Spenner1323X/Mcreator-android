@@ -23,7 +23,7 @@ Size verdiğimiz zipi ayıklayın, içindeki `rt.jar` dosyasını dizine kopyala
 
 ### 🛠️ MCreator Kurulumu
 
-1. [MCreator 2021.1](https://mcreator.net/download) sürümünü `.tar.gz` olarak indirin.
+1. [MCreator 2021.1]([https://mcreator.net/download](https://mcreator.net/download/2021-1)) sürümünü `.tar.gz` olarak indirin.
 2. Arşivi çıkartın.
 3. İçindeki `mcreator.sh` dosyasını silin.
 4. Size verilen yeni `mcreator.sh` dosyasını bu klasöre yerleştirin.
