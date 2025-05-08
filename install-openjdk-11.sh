@@ -27,6 +27,6 @@ java -version
 
 # JavaFX (OpenJFX) kurulumu
 echo ">> JavaFX (OpenJFX) kuruluyor..."
-sudo apt install -y openjfx
+sudo apt-get install openjfx libopenjfx-java libopenjfx-jni
 
 echo ">> JavaFX kurulumu tamamlandı."
