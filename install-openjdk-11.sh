@@ -5,7 +5,7 @@ echo ">> Java 11 kuruluyor..."
 sudo apt update && sudo apt install -y openjdk-11-jdk
 
 # Java kurulum yolunu belirle
-JAVA_PATH="/usr/lib/jvm/java-11-openjdk-amd64"
+JAVA_PATH="/usr/lib/jvm/java-11-openjdk-arm64"
 
 # JAVA_HOME ve PATH ayarlarını .bashrc dosyasına ekle
 if ! grep -q "JAVA_HOME=$JAVA_PATH" ~/.bashrc; then
@@ -21,6 +21,12 @@ fi
 echo ">> Değişiklikler uygulanıyor..."
 source ~/.bashrc
 
-# Sürüm kontrolü
+# Java sürüm kontrolü
 echo ">> Java sürüm bilgisi:"
 java -version
+
+# JavaFX (OpenJFX) kurulumu
+echo ">> JavaFX (OpenJFX) kuruluyor..."
+sudo apt install -y openjfx
+
+echo ">> JavaFX kurulumu tamamlandı."
