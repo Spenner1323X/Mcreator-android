@@ -13,7 +13,7 @@ chmod +x install-openjdk-11.sh
 
 ### 📦 rt.jar Dosyasını Yükleme
 
-Size verdiğimiz bağlantıdan `rt.jar` dosyasını indirin ve aşağıdaki dizine kopyalayın:
+Size verdiğimiz zipi ayıklayın, içindeki `rt.jar` dosyasını dizine kopyalayın:
 
 ```
 /usr/lib/jvm/java-11-openjdk-arm64/lib
